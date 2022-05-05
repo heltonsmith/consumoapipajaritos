@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   
   get "/", to: "pajarito#index"
+  get "/detalle/:uid", to: "pajarito#detalle"
 end
